@@ -1,0 +1,2 @@
+[2023-07-27 13:05:55,174] INFO [QuorumController id=1] Unfenced broker 1 has requested and been granted an immediate shutdown. (org.apache.kafka.controller.BrokerHeartbeatManager)
+[2023-07-27 13:05:55,318] ERROR [QuorumController id=1] writeNoOpRecord: unable to start processing because of RejectedExecutionException. Reason: null (org.apache.kafka.controller.QuorumController)
