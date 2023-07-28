@@ -1,0 +1,1 @@
+[2023-07-27 20:48:24,629] INFO [QuorumController id=1] CreateTopics result(s): CreatableTopic(name='triffy-ondc', numPartitions=-1, replicationFactor=-1, assignments=[], configs=[]): TOPIC_ALREADY_EXISTS (Topic 'triffy-ondc' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
