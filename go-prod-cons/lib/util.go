@@ -14,6 +14,10 @@ type Message struct {
     Data string
 }
 
+func GetConsumer(conf *kafka.ConfigMap) (*kafka.Consumer, error) {
+    return kafka.NewConsumer(conf)
+}
+
 func GetProducer(conf *kafka.ConfigMap) (*kafka.Producer, error) {
     return kafka.NewProducer(conf)
 }
