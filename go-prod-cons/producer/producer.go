@@ -43,6 +43,7 @@ func main() {
 		os.Exit(1)
 	}
 
+    // NOTE: for some reason removing this causes 15s latency per request - INVESTIGATE
 	// Go-routine to handle message delivery reports and
 	// possibly other event types (errors, stats, etc)
 	go func() {
